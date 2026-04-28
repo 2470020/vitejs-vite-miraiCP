@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Timer } from './components/Timer';
 import { LogTable } from './components/LogTable';
-import { createLogEntry, DoorLog } from './services/DataManager';
+import { createLogEntry } from './services/DataManager';
 
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
